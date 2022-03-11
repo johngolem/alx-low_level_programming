@@ -1,0 +1,2 @@
+#!/bin/bash
+gncc c -o c
