@@ -8,12 +8,6 @@
  */
 int main(void)
 {
-char ch = 'z';
-
-for (ch = 'z'; ch >= 'a'; ch--)
-{
-putchar(ch);
-}
-putchar('\n');
+puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }

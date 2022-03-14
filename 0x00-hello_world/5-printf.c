@@ -8,12 +8,6 @@
  */
 int main(void)
 {
-char ch = 'z';
-
-for (ch = 'z'; ch >= 'a'; ch--)
-{
-putchar(ch);
-}
-putchar('\n');
+printf("with proper grammar, but the outcome is a piece of art,\n");
 return (0);
 }
