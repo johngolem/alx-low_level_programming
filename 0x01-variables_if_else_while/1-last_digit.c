@@ -16,17 +16,17 @@ n = rand() - RAND_MAX / 2;
 if ((n % 10) > 5)
 {
 /* checks if no if positive */
-printf("Last digit of %d is %d and is greater than 5\n", n);
+printf("Last digit of %d is %d and is greater than 5\n", n, n);
 /* checks if no is zero */
 }
-else if (n == 0)
+else if ((n % 10) == 0)
 {
-printf("Last digit of %d is %d and is greater than 0\n", n);
+printf("Last digit of %d is %d and is greater than 0\n", n, n);
 /* checks if no is negative */
 }
 else
 {
-printf("Last digit of %d is %d and is less than 6 or not 0\n", n);
+printf("Last digit of %d is %d and is less than 6 or not 0\n", n, n);
 }
 return (0);
 }
