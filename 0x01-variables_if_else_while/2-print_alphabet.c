@@ -1,6 +1,13 @@
 #include <stdio.h>
-/* main function to get characters
-* using ASCII */
+/**
+ * main function to get characters
+ *
+ * using ASCII
+ *
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 /* first chac to be written*/
