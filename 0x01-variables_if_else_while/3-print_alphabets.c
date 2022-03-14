@@ -19,5 +19,6 @@ for (ch = 'a'; ch <= 'z'; ch++)
 {
 putchar(toupper(ch));
 }
+putchar('\n');
 return (0);
 }
