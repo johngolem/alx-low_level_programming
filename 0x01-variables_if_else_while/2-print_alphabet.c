@@ -8,6 +8,6 @@ char ch = 'a';
 
 /*chac to be written in stdout*/
 for (ch = 'a'; ch <= 'z'; ch++)
-putchar(ch \n);
+putchar(ch)
 return (0);
 }
