@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
- * main function to get characters
+ * main - entry point
  *
  * using ASCII
- *
- * main - Entry point
  *
  * Return: Always 0 (Success)
  */
