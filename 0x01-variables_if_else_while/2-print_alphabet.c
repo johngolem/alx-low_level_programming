@@ -15,6 +15,9 @@ char ch = 'a';
 
 /*chac to be written in stdout*/
 for (ch = 'a'; ch <= 'z'; ch++)
+{
 putchar(ch);
+}
+putchar('\n');
 return (0);
 }
