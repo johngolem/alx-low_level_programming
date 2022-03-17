@@ -1,23 +1,14 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - entry point
- *
- * using ASCII
- *
- * Return: Always 0 (Success)
+ * print_alphabet - prints the alphabet, in lowercase, followed by a new line
  */
-int main(void)
-
+void print_alphabet(void)
 {
-/* first chac to be written*/
-char ch = 'a';
+	char c;
 
-/*chac to be written in stdout*/
-for (ch = 'a'; ch <= 'z'; ch++)
-{
-putchar(ch);
-}
-putchar('\n');
-return (0);
+	for (c = 'a'; c <= 'z'; c++)
+		_putchar(c);
+
+	_putchar('\n');
 }
